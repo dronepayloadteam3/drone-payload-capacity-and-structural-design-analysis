@@ -23,6 +23,12 @@ Files Included
 - Design_2_Concept_Sketch.pdf – Concept sketch for the second drone arm design.
 - README.md – Project documentation and usage instructions.
 
+How to Download the CAD Files:
+1. Click on the CAD file you want above (Design_1_CAD_Model.STEP or Design_2_CAD_Model.STL).
+2. Do not copy or paste the text code that appears on the screen.
+3. Look at the top right of the file display pane and click the "Download raw file" button (the arrow pointing down into a tray icon).
+4. Alternatively, right-click the "RAW" button and select "Save Link As..." to save it directly to your computer. 
+
 
 How to Run the Project
 1. Open MATLAB.
@@ -79,7 +85,7 @@ The script will automatically generate:
 Final Recommendation:
 
 
-Based on the thrust-to-weight analysis, Finite Element Analysis (FEA), and material cost optimization, the recommended design is Design 1: a tapered hollow rectangular arm constructed from Fiberglass Composite (GFRP). It provides the best balance of payload capacity, structural safety, and engineering performance while satisfying all the project constraints. 
+Based on the thrust-to-weight analysis, Finite Element Analysis (FEA), and material cost optimization, the recommended design is Design 1, which is a tapered hollow rectangular arm constructed from Fiberglass Composite (GFRP). It provides the best balance of payload capacity, structural safety, and engineering performance while satisfying all the project constraints. 
 
 Although Carbon Fiber Composite (CFRP) provided the best overall structural performance, GFRP offered a better balance between performance and cost while still meeting all the project requirements. The improvements provided by CFRP were relatively small compared to its increase in material cost. This makes GFRP a more practical engineering choice for this project.
 
