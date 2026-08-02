@@ -1,0 +1,26 @@
+========================================
+        DESIGN 2 FEA RESULTS TABLE
+========================================
+
+               Material                MaximumDisplacement_mm    MaximumVonMisesStress_MPa    FactorOfSafety
+    _______________________________    ______________________    _________________________    ______________
+
+    "Carbon Fiber Composite (CFRP)"            1.1464                     34.414                  17.435    
+    "Aluminum Alloy"                           1.1621                      34.31                  8.0151    
+    "Fiberglass Composite (GFRP)"              3.2112                     34.501                  8.6954    
+    "PLA Plastic"                              22.889                     34.244                  1.7522    
+    "ABS Plastic"                              40.068                     34.261                  1.1675    
+    "Wood (Birch)"                             8.0137                     34.261                   2.335    
+
+
+Design 2 FEA Safety Summary:
+
+Materials passing FEA requirements:
+ Carbon Fiber Composite (CFRP)
+ Aluminum Alloy
+ Fiberglass Composite (GFRP)
+ PLA Plastic
+ Wood (Birch)
+
+Materials failing FEA requirements:
+ ABS Plastic
