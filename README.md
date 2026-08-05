@@ -30,8 +30,8 @@ Contains all CAD models and design sketches.
 
 ### design-1-hollow-tapered-rectangular-tube
 * Design-1-Concept-Sketch.pdf 
-* Design-1-CAD-Model.STEP 
-* Design-1-Visualization-Only-Model.STL 
+* Design_1_CAD_Model.STEP 
+* Visualization-Only-Model.STL 
 
 ### design-2-hollow-truss-structure
 
@@ -51,8 +51,8 @@ Contains all MATLAB files used throughout the project.
 
 * live-script-pdf-exports
 
-  * Design-1-Live-Script-Analysis-Export.pdf – PDF export of the Design 1 MATLAB analysis.
-  * Design-2-Live-Script-Analysis-Export.pdf – PDF export of the Design 2 MATLAB analysis.
+  * Design-1-Live-Script-Analysis-Export.pdf – PDF export of the MATLAB analysis using Design 1.
+  * Design-2-Live-Script-Analysis-Export.pdf – PDF export of the MATLAB analysis using Design 2.
 * DroneDesign-Team3-Analysis.mlx – Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
 
 * droneArmMaterials.mat – Material properties database used throughout the analysis.
@@ -92,8 +92,8 @@ Each design folder contains:
 4. Ensure the following files are located in the working directory:
 
 * droneArmMaterials.mat
-* Design-1-CAD-Model.STEP
-* Design-2-CAD-Model.STL
+* Design_1_CAD_Model.STEP
+* Design_2_CAD_Model.STL
 
 5. Select which drone arm design you would like to analyze during **Task 4: Finite Element Analysis (FEA)**.
 
@@ -219,3 +219,5 @@ Additionally, while Wood (Birch) was identified as the lowest-cost material, it 
 Compared with Design 2, Design 1 demonstrated better structural behavior. Although Design 2 met the project requirements, it experienced greater maximum displacement. Through investigation, it was determined that the truss members primarily reinforced the x- and y-directions but provided limited resistance in the z-direction. This reduced the arm's resistance to vertical bending and likely contributed to the higher displacement. Rather than redesigning the arm, the team chose to retain the original design because it demonstrates the engineering design process. The results highlighted how analysis, testing, and iteration lead to improved engineering decisions and provide valuable lessons for future designs.
 
 Overall, Design 1 with GFRP provided the best combination of payload capacity, structural integrity, manufacturability, and material cost. Future work could expand this analysis by incorporating wind loading, vibration, fatigue, landing impacts, motor torque, and experimental prototype testing to better represent real operating conditions.
+
+A more detailed report of the final design recommendation, including the MATLAB-based analysis, FEA results, and optimization process, can be found in the accompanying MATLAB Live Script (DroneDesign-Team3-Analysis.mlx).
