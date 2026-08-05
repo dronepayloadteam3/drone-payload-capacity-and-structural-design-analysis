@@ -29,14 +29,14 @@ Through the development and analysis of these designs, the project investigates 
 Contains all CAD models and design sketches.
 
 ### design-1-hollow-tapered-rectangular-tube
-* Design-1-CAD-Model.STEP
-* Design-1-CAD-Model.STL (For viewing purposes) 
-* Design-1-Concept-Sketch.pdf
+* Design-1-Concept-Sketch.pdf 
+* Design-1-CAD-Model.STEP 
+* Design-1-Visualization-Only-Model.STL 
 
 ### design-2-hollow-truss-structure
 
-* Design-2-CAD-Model.STL
-* Design-2-Concept-Sketch.pdf
+* Design-2-Concept-Sketch.pdf 
+* Design_2_CAD_Model.STL 
 
 ## Documentation
 
@@ -49,11 +49,12 @@ Contains supporting project documentation.
 
 Contains all MATLAB files used throughout the project.
 
-* DroneDesign-Team3-Analysis.mlx – Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
 * live-script-pdf-exports
 
   * Design-1-Live-Script-Analysis-Export.pdf – PDF export of the Design 1 MATLAB analysis.
   * Design-2-Live-Script-Analysis-Export.pdf – PDF export of the Design 2 MATLAB analysis.
+* DroneDesign-Team3-Analysis.mlx – Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
+
 * droneArmMaterials.mat – Material properties database used throughout the analysis.
 
 ## Results
@@ -73,9 +74,10 @@ Each design folder contains:
 # How to Download the CAD Files
 
 1. Open the **cad-designs** folder.
-2. Select the desired STEP or STL file.
-3. Click **Download Raw File** (download icon) in the upper-right corner.
-4. Alternatively, right-click **Raw** and choose **Save Link As...**
+2. Open the **design-1-hollow-tapered-rectangular-tube** or **design-2-hollow-truss-structure** folder
+3. Select the desired STEP (For Design 1) or STL (For Design 2) file.
+4. Click **Download Raw File** (download icon) in the upper-right corner.
+   -  Alternatively, right-click **Raw** and choose **Save Link As...**
 
 ---
 
@@ -130,7 +132,7 @@ Loads the density, Young's modulus, Poisson's ratio, yield strength, and materia
 * ABS Plastic
 * Wood (Birch)
 
----
+
 
 ## 2. Thrust-to-Weight Analysis
 
@@ -139,11 +141,11 @@ Calculates the mass of each drone arm and determines the maximum payload capacit
 * Minimum payload requirement of **0.5 kg**
 * Minimum thrust-to-weight ratio of **2:1**
 
----
+
 
 ## 3. Finite Element Analysis (FEA)
 
-Imports the selected STL model into MATLAB.
+Imports the selected STL or STEP model into MATLAB.
 
 The script then:
 
@@ -158,7 +160,7 @@ The script then:
 
 The results are displayed as summary tables and interactive displacement and stress plots.
 
----
+
 
 ## 4. Material Cost Optimization
 
