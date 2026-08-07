@@ -1,5 +1,8 @@
 # Solution to Classroom Challenge Project — Drone Payload Capacity and Structural Design Analysis — Team 3
 
+![MATLAB](https://img.shields.io/badge/MATLAB-R2026a-orange?logo=mathworks&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 MATLAB-based UAV arm design and optimization project using CAD modeling, thrust-to-weight analysis, finite element analysis (FEA), and material cost optimization to evaluate structural performance and payload capacity.
 
 This project was completed as part of the MathWorks Classroom Challenge and demonstrates the application of CAD modeling, MATLAB programming, thrust-to-weight analysis, and finite element analysis (FEA) to optimize UAV drone arm performance.
@@ -52,6 +55,7 @@ Contains all MATLAB files used throughout the project.
 
 * [droneArmMaterials.mat](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/matlab/droneArmMaterials.mat) — Material properties database used throughout the analysis.
 * [drone_design_team3_analysis.mlx](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/matlab/drone_design_team3_analysis.mlx) — Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
+* [drone_design_team3_analysis.m](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/matlab/drone_design_team3_analysis.m) — Plain-code MATLAB script export of the Live Script, provided for quick viewing directly on GitHub.
 
 ### [live-script-pdf-exports](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/matlab/live-script-pdf-exports)
 
@@ -220,13 +224,13 @@ The final recommendation considers quantitative performance, structural safety, 
 
 # Required Software
 
-* MATLAB R2026a
+* [MATLAB](https://www.mathworks.com/products/matlab.html) R2026a
 
 ---
 
 # Required Toolboxes
 
-* Partial Differential Equation Toolbox
+* [Partial Differential Equation Toolbox](https://www.mathworks.com/products/pde.html)
 
 ---
 
