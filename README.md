@@ -7,6 +7,8 @@ MATLAB-based UAV arm design and optimization project using CAD modeling, thrust-
 
 This project was completed as part of the MathWorks Classroom Challenge and demonstrates the application of CAD modeling, MATLAB programming, thrust-to-weight analysis, and finite element analysis (FEA) to optimize UAV drone arm performance.
 
+A full formatted project report, including the complete FEA results, discussion, and final design recommendation, is available at [`documentation/drone_payload_team_3_full_report.pdf`](documentation/drone_payload_team_3_full_report.pdf).
+
 ## Table of contents
 
 * [Project Objective](#project-objective)
@@ -17,6 +19,7 @@ This project was completed as part of the MathWorks Classroom Challenge and demo
 * [Project Workflow](#project-workflow)
 * [Required Software](#required-software)
 * [Required Toolboxes](#required-toolboxes)
+* [Full Project Report](#full-project-report)
 * [References](#references)
 * [Contact](#contact)
 * [License](#license)
@@ -48,6 +51,7 @@ drone-design-analysis/
 │       └── Design_2_Concept_Sketch.pdf                      # concept sketch
 ├── documentation/                                        # supporting project documentation
 │   ├── drone_design_constraints_assumptions_and_ideas.xlsx  # constraints, assumptions, material info
+│   ├── drone_payload_team_3_full_report.pdf                 # full formatted project report
 │   └── drone_payload_team_3_toa.pdf                         # team agreement
 ├── matlab/                                               # all MATLAB files used in the project
 │   ├── drone_design_team3_analysis.mlx                       # main Live Script (design, analysis, optimization)
@@ -221,6 +225,10 @@ The final recommendation considers quantitative performance, structural safety, 
 
 * [Partial Differential Equation Toolbox](https://www.mathworks.com/products/pde.html)
 
+## Full Project Report
+
+A full formatted project report is available at [`documentation/drone_payload_team_3_full_report.pdf`](documentation/drone_payload_team_3_full_report.pdf). It includes the complete problem definition, project file and function reference, thrust-to-weight analysis, all twelve finite element analysis results with visualizations, material cost optimization, the final design recommendation and interpretation of results, limitations and future work, and team roles and project management.
+
 ## References
 
 * [MathWorks Classroom Challenge Project Hub: Drone Payload Capacity and Structural Design Analysis](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Drone%20Payload%20Capacity%20and%20Structural%20Design%20Analysis) — Original MathWorks Classroom Challenge project page containing the project challenge and associated project information.
@@ -251,4 +259,4 @@ Compared with Design 2, Design 1 demonstrated better structural behavior. Althou
 
 Overall, Design 1 with GFRP provided the best combination of payload capacity, structural integrity, manufacturability, and material cost. Future work could expand this analysis by incorporating wind loading, vibration, fatigue, landing impacts, motor torque, and experimental prototype testing to better represent real operating conditions.
 
-A more detailed report of the final design recommendation, including the MATLAB-based analysis, FEA results, and optimization process, can be found in the accompanying MATLAB Live Script.
+A more detailed report of the final design recommendation, including the full MATLAB-based analysis, FEA results, and optimization process, can be found in [`documentation/drone_payload_team_3_full_report.pdf`](documentation/drone_payload_team_3_full_report.pdf).
