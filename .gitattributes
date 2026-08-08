@@ -1,0 +1,11 @@
+# Normalize text files to LF
+* text=auto eol=lf
+
+# Treat these as binary so Git never rewrites line endings or attempts to diff them as text
+*.mlx binary
+*.mat binary
+*.STEP binary
+*.STL binary
+*.pdf binary
+*.xlsx binary
+*.png binary
