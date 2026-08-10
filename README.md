@@ -3,9 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![MATLAB R2026a](https://img.shields.io/badge/MATLAB-R2026a-orange.svg)
 
-MATLAB-based UAV arm design and optimization project using CAD modeling, thrust-to-weight analysis, finite element analysis (FEA), and material cost optimization to evaluate structural performance and payload capacity.
+MATLAB-based drone arm design and optimization project using CAD modeling, thrust-to-weight analysis, finite element analysis (FEA), and material cost optimization to evaluate structural performance and payload capacity.
 
-This project was completed as part of the MathWorks Classroom Challenge and demonstrates the application of CAD modeling, MATLAB programming, thrust-to-weight analysis, and finite element analysis (FEA) to optimize UAV drone arm performance.
+This project was completed as part of the MathWorks Classroom Challenge and demonstrates the application of CAD modeling, MATLAB programming, thrust-to-weight analysis, and finite element analysis (FEA) to optimize drone arm performance.
 
 A full formatted project report, including the complete FEA results, discussion, and final design recommendation, is available at [`documentation/drone_payload_team_3_full_report.pdf`](documentation/drone_payload_team_3_full_report.pdf).
 
@@ -20,6 +20,7 @@ A full formatted project report, including the complete FEA results, discussion,
 * [Required Software](#required-software)
 * [Required Toolboxes](#required-toolboxes)
 * [Full Project Report](#full-project-report)
+* [Results](#results)
 * [References](#references)
 * [Contact](#contact)
 * [License](#license)
@@ -73,10 +74,6 @@ drone-design-analysis/
 ├── LICENSE
 └── README.md
 ```
-
-An example of the exported FEA results is shown below for Design 1 using Fiberglass Composite (GFRP):
-
-![Design 1 Fiberglass Composite FEA Results](results/readme-results/design_1_fiberglass_composite_fea_results.png)
 
 ## CAD Download Instructions
 
@@ -229,6 +226,14 @@ The final recommendation considers quantitative performance, structural safety, 
 
 A full formatted project report is available at [`documentation/drone_payload_team_3_full_report.pdf`](documentation/drone_payload_team_3_full_report.pdf). It includes the complete problem definition, project file and function reference, thrust-to-weight analysis, all twelve finite element analysis results with visualizations, material cost optimization, the final design recommendation and interpretation of results, limitations and future work, and team roles and project management.
 
+## Results
+
+The Live Script analysis produces displacement, stress, and cost/payload comparison outputs for each design and material combination. As an example, the FEA results below show Design 1 evaluated with Fiberglass Composite (GFRP), the final recommended material:
+
+![Design 1 Fiberglass Composite FEA Results](results/readme-results/design_1_fiberglass_composite_fea_results.png)
+
+Browse the full set of results, organized separately for Design 1 and Design 2, in the [`results`](results/) folder.
+
 ## References
 
 * [MathWorks Classroom Challenge Project Hub: Drone Payload Capacity and Structural Design Analysis](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Drone%20Payload%20Capacity%20and%20Structural%20Design%20Analysis) — Original MathWorks Classroom Challenge project page containing the project challenge and associated project information.
@@ -258,5 +263,3 @@ Additionally, while Wood (Birch) was identified as the lowest-cost material, it 
 Compared with Design 2, Design 1 demonstrated better structural behavior. Although Design 2 met the project requirements, it experienced greater maximum displacement. Through investigation, it was determined that the truss members primarily reinforced the x- and y-directions but provided limited resistance in the z-direction. This reduced the arm's resistance to vertical bending and likely contributed to the higher displacement. Rather than redesigning the arm, the team chose to retain the original design because it demonstrates the engineering design process. The results highlighted how analysis, testing, and iteration lead to improved engineering decisions and provide valuable lessons for future designs.
 
 Overall, Design 1 with GFRP provided the best combination of payload capacity, structural integrity, manufacturability, and material cost. Future work could expand this analysis by incorporating wind loading, vibration, fatigue, landing impacts, motor torque, and experimental prototype testing to better represent real operating conditions.
-
-A more detailed report of the final design recommendation, including the full MATLAB-based analysis, FEA results, and optimization process, can be found in [`documentation/drone_payload_team_3_full_report.pdf`](documentation/drone_payload_team_3_full_report.pdf).

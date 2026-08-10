@@ -1,0 +1,25 @@
+# Design 1 FEA Results Table
+
+| Material | Maximum Displacement (mm) | Maximum Von Mises Stress (MPa) | Factor of Safety |
+| --- | ---: | ---: | ---: |
+| Carbon Fiber Composite (CFRP) | 0.059081 | 4.2484 | 141.23 |
+| Aluminum Alloy | 0.059894 | 4.2349 | 64.937 |
+| Fiberglass Composite (GFRP) | 0.1655 | 4.2546 | 70.512 |
+| PLA Plastic | 1.1798 | 4.2166 | 14.229 |
+| ABS Plastic | 2.0652 | 4.2232 | 9.4714 |
+| Wood (Birch) | 0.41304 | 4.2232 | 18.943 |
+
+## Design 1 FEA Safety Summary
+
+**Materials passing FEA requirements:**
+
+* Carbon Fiber Composite (CFRP)
+* Aluminum Alloy
+* Fiberglass Composite (GFRP)
+* PLA Plastic
+* ABS Plastic
+* Wood (Birch)
+
+**Materials failing FEA requirements:**
+
+* No materials failed
